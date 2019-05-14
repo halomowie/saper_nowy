@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="saper_nowy"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\cpp\;CMake Files\..\..\..\..\..\cpp\SFML-2.5.1\;CMake Files\..\..\..\..\..\cpp\SFML-2.5.1\lib\;CMake Files\..\..\..\..\..\cpp\SFML-2.5.1\lib\cmake\;CMake Files\..\..\..\..\..\cpp\SFML-2.5.1\lib\cmake\SFML\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/Daniel/Desktop/Cpp/saper_nowy/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/cpp/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Daniel/Desktop/Cpp/saper_nowy/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/cpp/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Daniel/Desktop/Cpp/saper_nowy/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/cpp/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Daniel/Desktop/Cpp/saper_nowy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/cpp/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Daniel/Desktop/Cpp/saper_nowy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="saper_nowy">
+				<Option output="C:/Users/Daniel/Desktop/Cpp/saper_nowy/cmake-build-debug/saper_nowy.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Daniel/Desktop/Cpp/saper_nowy/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/cpp/SFML-2.5.1/include/SFML"/>
+					<Add directory="C:/cpp/SFML-2.5.1/include"/>
+					<Add directory="C:/cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="C:/cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="C:/cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="C:/cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="C:/cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/cpp/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Daniel/Desktop/Cpp/saper_nowy/cmake-build-debug/Makefile&quot;  VERBOSE=1 saper_nowy"/>
+					<CompileFile command="C:/cpp/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Daniel/Desktop/Cpp/saper_nowy/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/cpp/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Daniel/Desktop/Cpp/saper_nowy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/cpp/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Daniel/Desktop/Cpp/saper_nowy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="saper_nowy/fast">
+				<Option output="C:/Users/Daniel/Desktop/Cpp/saper_nowy/cmake-build-debug/saper_nowy.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Daniel/Desktop/Cpp/saper_nowy/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/cpp/SFML-2.5.1/include/SFML"/>
+					<Add directory="C:/cpp/SFML-2.5.1/include"/>
+					<Add directory="C:/cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="C:/cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="C:/cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="C:/cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="C:/cpp/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/cpp/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Daniel/Desktop/Cpp/saper_nowy/cmake-build-debug/Makefile&quot;  VERBOSE=1 saper_nowy/fast"/>
+					<CompileFile command="C:/cpp/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Daniel/Desktop/Cpp/saper_nowy/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/cpp/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Daniel/Desktop/Cpp/saper_nowy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/cpp/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Daniel/Desktop/Cpp/saper_nowy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/Daniel/Desktop/Cpp/saper_nowy/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/cpp/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Daniel/Desktop/Cpp/saper_nowy/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/cpp/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Daniel/Desktop/Cpp/saper_nowy/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/cpp/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Daniel/Desktop/Cpp/saper_nowy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/cpp/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Daniel/Desktop/Cpp/saper_nowy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/Daniel/Desktop/Cpp/saper_nowy/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/cpp/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Daniel/Desktop/Cpp/saper_nowy/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/cpp/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Daniel/Desktop/Cpp/saper_nowy/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/cpp/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Daniel/Desktop/Cpp/saper_nowy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/cpp/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Daniel/Desktop/Cpp/saper_nowy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/Daniel/Desktop/Cpp/saper_nowy/MSBoardTextView.cpp">
+			<Option target="saper_nowy"/>
+		</Unit>
+		<Unit filename="C:/Users/Daniel/Desktop/Cpp/saper_nowy/MSBoardTextView.h">
+			<Option target="saper_nowy"/>
+		</Unit>
+		<Unit filename="C:/Users/Daniel/Desktop/Cpp/saper_nowy/MSSFMLController.cpp">
+			<Option target="saper_nowy"/>
+		</Unit>
+		<Unit filename="C:/Users/Daniel/Desktop/Cpp/saper_nowy/MSSFMLController.h">
+			<Option target="saper_nowy"/>
+		</Unit>
+		<Unit filename="C:/Users/Daniel/Desktop/Cpp/saper_nowy/MSSFMLView.cpp">
+			<Option target="saper_nowy"/>
+		</Unit>
+		<Unit filename="C:/Users/Daniel/Desktop/Cpp/saper_nowy/MSSFMLView.h">
+			<Option target="saper_nowy"/>
+		</Unit>
+		<Unit filename="C:/Users/Daniel/Desktop/Cpp/saper_nowy/MSTextController.cpp">
+			<Option target="saper_nowy"/>
+		</Unit>
+		<Unit filename="C:/Users/Daniel/Desktop/Cpp/saper_nowy/MSTextController.h">
+			<Option target="saper_nowy"/>
+		</Unit>
+		<Unit filename="C:/Users/Daniel/Desktop/Cpp/saper_nowy/Minesweeperboard.cpp">
+			<Option target="saper_nowy"/>
+		</Unit>
+		<Unit filename="C:/Users/Daniel/Desktop/Cpp/saper_nowy/Minesweeperboard.h">
+			<Option target="saper_nowy"/>
+		</Unit>
+		<Unit filename="C:/Users/Daniel/Desktop/Cpp/saper_nowy/main.cpp">
+			<Option target="saper_nowy"/>
+		</Unit>
+		<Unit filename="C:/Users/Daniel/Desktop/Cpp/saper_nowy/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="C:/Users/Daniel/Desktop/Cpp/saper_nowy/../../../../../cpp/SFML-2.5.1/lib/cmake/SFML/SFMLConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\cpp\SFML-2.5.1\lib\cmake\SFML\"/>
+		</Unit>
+		<Unit filename="C:/Users/Daniel/Desktop/Cpp/saper_nowy/../../../../../cpp/SFML-2.5.1/lib/cmake/SFML/SFMLConfigDependencies.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\cpp\SFML-2.5.1\lib\cmake\SFML\"/>
+		</Unit>
+		<Unit filename="C:/Users/Daniel/Desktop/Cpp/saper_nowy/../../../../../cpp/SFML-2.5.1/lib/cmake/SFML/SFMLConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\cpp\SFML-2.5.1\lib\cmake\SFML\"/>
+		</Unit>
+		<Unit filename="C:/Users/Daniel/Desktop/Cpp/saper_nowy/../../../../../cpp/SFML-2.5.1/lib/cmake/SFML/SFMLSharedTargets-debug.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\cpp\SFML-2.5.1\lib\cmake\SFML\"/>
+		</Unit>
+		<Unit filename="C:/Users/Daniel/Desktop/Cpp/saper_nowy/../../../../../cpp/SFML-2.5.1/lib/cmake/SFML/SFMLSharedTargets-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\cpp\SFML-2.5.1\lib\cmake\SFML\"/>
+		</Unit>
+		<Unit filename="C:/Users/Daniel/Desktop/Cpp/saper_nowy/../../../../../cpp/SFML-2.5.1/lib/cmake/SFML/SFMLSharedTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\cpp\SFML-2.5.1\lib\cmake\SFML\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,3 @@
+C:/Users/Daniel/Desktop/Cpp/saper_nowy/cmake-build-debug/CMakeFiles/saper_nowy.dir
+C:/Users/Daniel/Desktop/Cpp/saper_nowy/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Daniel/Desktop/Cpp/saper_nowy/cmake-build-debug/CMakeFiles/rebuild_cache.dir
